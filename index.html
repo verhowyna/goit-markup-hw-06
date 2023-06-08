@@ -419,31 +419,51 @@
         <form class="modal-form">
           <div class="contact-form">
             <label for="user-name" class="contact-form-label">Name</label>
-            <input
-              type="text"
-              name="user_name"
-              id="user-name"
-              class="contact-form-input"
-            />
+            <div class="contact-form-wrap">
+              <input
+                type="text"
+                name="user_name"
+                id="user-name"
+                class="contact-form-input"
+              />
+            </div>
           </div>
           <div class="contact-form">
             <label for="user-phone" class="contact-form-label">Phone</label>
-            <input
-              type="phone"
-              name="user_phone"
-              id="user-phone"
-              class="contact-form-input"
-            />
+            <div class="contact-form-wrap">
+              <input
+                type="phone"
+                name="user_phone"
+                id="user-phone"
+                class="contact-form-input"
+              />
+            </div>
           </div>
           <div class="contact-form">
             <label for="user-email" class="contact-form-label">Email</label>
-            <input
-              type="email"
-              name="user_email"
-              id="user-email"
-              class="contact-form-input"
-            />
+            <div class="contact-form-wrap">
+              <input
+                type="email"
+                name="user_email"
+                id="user-email"
+                class="contact-form-input"
+              />
+            </div>
           </div>
+          <div class="contact-form">
+            <label for="user-message" class="contact-form-label">Comment</label>
+            <textarea
+              name="user_message"
+              class="contact-form-message"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <input id="user-policy" type="text" class="modal-form-check" />
+          <label for="user-policy" class="modal-form-check-desc"
+            >I accept the terms and conditions of the
+            <a href="">Privacy Policy</a></label
+          >
+          <button type="submit" class="modal-form-submit">Send</button>
         </form>
       </div>
     </div>
