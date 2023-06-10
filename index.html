@@ -458,11 +458,13 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <input id="user-policy" type="text" class="modal-form-check" />
-          <label for="user-policy" class="modal-form-check-desc"
-            >I accept the terms and conditions of the
-            <a href="">Privacy Policy</a></label
-          >
+          <div class="modal-field">
+            <input id="user-policy" type="checkbox" name="privacy" />
+            <label for="user-policy" class="modal-form-check"
+              ><span></span>I accept the terms and conditions of the
+              <a href="">Privacy Policy</a></label
+            >
+          </div>
           <button type="submit" class="modal-form-submit">Send</button>
         </form>
       </div>

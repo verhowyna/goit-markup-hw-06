@@ -707,8 +707,19 @@ body {
 }
 
 .modal-form-check {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.modal-form-check span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
+  margin-right: 8px;
 }
