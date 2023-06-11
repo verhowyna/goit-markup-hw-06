@@ -361,6 +361,7 @@
         </div>
       </section>
     </main>
+    <!-- Footer -->
     <footer class="footer">
       <div class="container footer-container">
         <div class="logo-wrap">
@@ -405,10 +406,31 @@
             </li>
           </ul>
         </div>
+        <form class="subscribe-form">
+          <div class="subscribe-wrap">
+            <p class="subscribe-text">Subscribe</p>
+            <div class="form-wrap">
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                class="subscribe-input"
+              />
+              <button class="subscribe-btn" type="submit">
+                <div class="subscribe-btn-wrap">
+                  <p class="subscribe-btn-text">Subscribe</p>
+                  <svg class="icon-telegram" width="24" height="24">
+                    <use href="./images/icons.svg#icon-telegram"></use>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </form>
       </div>
     </footer>
     <!-- Modal -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-btn-icon" width="8" height="8">
@@ -485,8 +507,8 @@
               ><span>
                 <svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use></svg></span
-              >I accept the terms and conditions of the
-              <a href="">Privacy Policy</a></label
+              >I accept the terms and conditions of the&nbsp;
+              <a class="user-policy-link" href="">Privacy Policy</a></label
             >
           </div>
           <button type="submit" class="modal-form-submit">Send</button>
