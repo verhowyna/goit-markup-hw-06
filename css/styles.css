@@ -744,6 +744,10 @@ body {
   margin-bottom: 8px;
 }
 
+.form-message {
+  margin-bottom: 16px;
+}
+
 .contact-form-label {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
@@ -763,13 +767,14 @@ body {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding-left: 38px;
+  background-color: transparent;
   outline: transparent;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-form-input:focus {
-  border: 1px solid #4d5ae5;
+  border-color: 1px solid #4d5ae5;
 }
 
 .contact-form-input:focus + .modal-icon {
