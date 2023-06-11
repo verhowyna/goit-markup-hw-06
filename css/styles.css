@@ -775,6 +775,7 @@ body {
 
 .contact-form-input:focus {
   border-color: #4d5ae5;
+  outline: none;
 }
 
 .contact-form-input:focus + .modal-icon {
