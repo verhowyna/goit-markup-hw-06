@@ -628,21 +628,15 @@ body {
 }
 
 .subscribe-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
   width: 165px;
   height: 40px;
   background: #4d5ae5;
   border-radius: 4px;
   border: none;
-}
-
-.subscribe-btn-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-}
-
-.subscribe-btn-text {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
