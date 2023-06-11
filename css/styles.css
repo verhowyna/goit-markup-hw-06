@@ -762,6 +762,7 @@ body {
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  padding-left: 38px;
   outline: transparent;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -769,7 +770,6 @@ body {
 
 .contact-form-input:focus {
   border: 1px solid #4d5ae5;
-  padding-left: 38px;
 }
 
 .contact-form-input:focus + .modal-icon {
@@ -781,6 +781,7 @@ body {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-form-message {
