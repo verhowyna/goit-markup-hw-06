@@ -825,13 +825,15 @@ body {
   color: #8e8f99;
 }
 
-.modal-form-check span {
+.user-policy {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  margin-right: 8px;
-  display: flex;
+  display: inline-flex;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -842,6 +844,7 @@ body {
   border: 1px solid var(--accent-color);
   border-radius: 2px;
   fill: #f4f4fd;
+  border: none;
 }
 
 .user-policy-link {
